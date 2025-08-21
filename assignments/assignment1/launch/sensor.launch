@@ -1,0 +1,5 @@
+<launch>
+	<node name="ultrasound_sensor_driver" pkg="assignment1" type="ultrasound_sensor_driver.py" output="screen">
+	<param name="sensor_resolution" value="0.5" />
+	</node>
+</launch>
